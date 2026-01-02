@@ -1,35 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript 功能測試</title>
 </head>
-
 <body>
-    <div id="user"></div>
-    <input type="text" id="name">
-    <input type="text" id="age">
-    <button onclick="user.showMsg()">問候語</button>
-    <button onclick="score.showMsg()">成績</button>
+    <h1>我的功能測試網頁</h1>
 
-    <script src="./oo.js"></script>
+    <button onclick="showMessage()">點擊我</button>
 
-    <div id="txt"></div>
-    <div id="heading"></div>
-    <script src="./index.js"></script>
+    <button onclick="addbutton()">新增按鈕</button>
 
+    <button onclick="deletebutton()">刪除按鈕</button>
 
-    <button id="addButton">新增按鈕</button>
-    <div id="container"></div>
-    <script src="./addButton.js"></script>
-
-    <br>
-    <script src="./test.js"></script>
-    <input type="text" id="userName" placeholder="請輸入名字">
-    <button onclick="greetUserName()">送出</button>
-    <p id="resultUser"></p>
+    <script src="index.js"></script>
 </body>
-
 </html>
